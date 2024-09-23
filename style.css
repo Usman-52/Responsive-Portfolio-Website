@@ -206,6 +206,7 @@ h1 {
     border: 10px solid rgb(117, 98, 224);
     box-shadow: 10px  rgba(117, 98, 224, 0.2);
     border-radius: 50%;
+    box-shadow: 1px 1px 10px 10px rgba(117, 98, 224, 0.5), -1px -1px 30px 10px rgba(117, 98, 224, 1);
 
 }
 .my-picture img {
@@ -261,14 +262,19 @@ h1 {
 }
 
 .card {
-    width: 300px;
+    width: 290px;
     height: 300px;
     border: 2px solid rgb(117, 98, 224);
     border-radius: 20px;
     color: white;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 1);
 }
 
 .image {
@@ -280,5 +286,17 @@ h1 {
     background-color: yellow;
 }
 
+.card  h2, p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+#white-color {
+    border-color: rgb(245, 245, 245);
+    
+}
 
 
