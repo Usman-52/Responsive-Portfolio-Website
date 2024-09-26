@@ -231,10 +231,9 @@ h1 {
     width: 100%;
     height: auto;
     background-color: rgb(26, 26, 41);
-    margin-bottom: 60px;
-    margin-top: 20px;
     margin-bottom: 100px;
-    padding-bottom: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
     
 }
 
@@ -264,6 +263,7 @@ h1 {
     font-size: 40px;
     padding-bottom: 40px;
     text-decoration: underline;
+    color: rgb(117, 98, 224);
 }
 
 .cards-main-container {
@@ -326,14 +326,16 @@ h1 {
 
 /** Services Section End */
 
-/** Project Section Start */
+/* * Project Section Start */
 
 #Projects {
     width: 100%;
     height: auto;
     background-color: rgb(26, 26, 41);
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 
 }
 
@@ -359,12 +361,13 @@ h1 {
     flex-wrap: wrap;
 }
 
-.p-h1 {
+.project-h1 {
     width: 100%;
     text-align: center;
-    color: white; /* Ensure the text is visible */
+    color: rgb(117, 98, 224); /* Ensure the text is visible */
     font-size: 40px; /* Adjust font size as needed */
     padding-bottom: 40px;
+    text-decoration: underline;
 }
 
 
@@ -405,17 +408,33 @@ h1 {
     align-items: center;
 }
 
-.btns button {
+/* .btns button {
+    
+
+} */
+
+.btn-1 {
     width: 100px;
     height: 35px;
     border-radius: 10px;
     background-color: rgb(117, 98, 224);
     color: rgb(245, 245, 245);
     cursor: pointer;
-
 }
 
-.btn2 {
+.btn-2{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 63);
+    color: rgb(245, 245, 245);
     border: 2px solid rgb(117, 98, 224);
-    background-color: none;
+    cursor: pointer;
 }
+
+.project-name {
+    
+    text-align: start;
+    color: rgb(117, 98, 224);
+}
+/* * Project Section End */
