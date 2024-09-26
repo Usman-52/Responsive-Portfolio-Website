@@ -342,7 +342,6 @@ h1 {
 .projects-main-container{
     width: 100%;
     height: auto;
-    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,3 +437,5 @@ h1 {
     color: rgb(117, 98, 224);
 }
 /* * Project Section End */
+
+
