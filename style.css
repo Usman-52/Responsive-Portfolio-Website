@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: rgb(24, 24, 36);
+}
+
 /* * Header Section Start */
 
 /* * Navigation Bar */
@@ -151,9 +155,10 @@ nav svg {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 .main-container {
-    width: 1500px;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -162,12 +167,13 @@ nav svg {
 }
 .my-intro {
     width: 600px;
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: center;
-    
-    
+    /* align-items: center; */
     flex-direction: column;
+    z-index: 2; 
+    margin-top: 50px;
 }
 
 h1, h2, h3 {
@@ -196,17 +202,20 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
     
     
 }
 
-.img {
+.hero-image {
     width: 390px;
     height: 385px;
     border: 10px solid rgb(117, 98, 224);
     box-shadow: 10px  rgba(117, 98, 224, 0.2);
     border-radius: 50%;
     box-shadow: 1px 1px 10px 10px rgba(117, 98, 224, 0.5), -1px -1px 30px 10px rgba(117, 98, 224, 1);
+    object-fit: cover;
 
 }
 .my-picture img {
@@ -222,15 +231,21 @@ h1 {
     width: 100%;
     height: auto;
     background-color: rgb(26, 26, 41);
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    
 }
 
 .services-main-container {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     
 }
 
@@ -261,6 +276,10 @@ h1 {
     flex-wrap: wrap;
 }
 
+.cards-main-container h1 {
+    text-align: center;
+}
+
 .card {
     width: 290px;
     height: 300px;
@@ -274,7 +293,11 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 1);
+    /* box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 1); */
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 0.5);
 }
 
 .image {
@@ -296,7 +319,103 @@ h1 {
 
 #white-color {
     border-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 10px 7px rgba(245, 245, 245 0.5), -1px -1px 20px 1px rgba(245, 245, 245 1);
     
 }
 
 
+/** Services Section End */
+
+/** Project Section Start */
+
+#Projects {
+    width: 100%;
+    height: auto;
+    background-color: rgb(26, 26, 41);
+    margin-bottom: 60px;
+    margin-top: 20px;
+
+}
+
+.projects-main-container{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* padding-left: 40px; */
+}
+
+.cards-container{
+     width: 1200px;
+    height: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p-h1 {
+    width: 100%;
+    text-align: center;
+    color: white; /* Ensure the text is visible */
+    font-size: 40px; /* Adjust font size as needed */
+    padding-bottom: 40px;
+}
+
+
+.project-card {
+    width: 290px;
+    height: 350px;
+    border: 2px solid rgb(117, 98, 224);
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.video-container {
+    width: 80%;
+    height: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.description {
+    padding-left: 34px;
+    padding-right: 30px;
+}
+
+.btns {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btns button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(117, 98, 224);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+
+}
+
+.btn2 {
+    border: 2px solid rgb(117, 98, 224);
+    background-color: none;
+}
