@@ -9,9 +9,9 @@ body {
     color: rgb(245, 245, 245);
 }
 
-/* * Header Section Start */
+/**--------------------------- Header Section Start --------------------------**/
 
-/* * Navigation Bar */
+/**-------------------------- Navigation Bar ---------------------------------**/
 
 nav {
     height: 70px;
@@ -144,9 +144,9 @@ nav svg {
 
 }
 
-/** Header Section End */
+/**---------------------------- Header Section End ------------------------------**/
 
-/** Home / Hero Section Start */
+/**-------------------------- Home / Hero Section Start ------------------------**/
 
 .home-section {
     width: 100%;
@@ -210,8 +210,8 @@ h1 {
 }
 
 .hero-image {
-    width: 390px;
-    height: 385px;
+    width: 360px;
+    height: 355px;
     border: 10px solid rgb(117, 98, 224);
     /* box-shadow: 10px  rgba(117, 98, 224, 0.2); */
     border-radius: 50%;
@@ -220,13 +220,13 @@ h1 {
 
 }
 .my-picture img {
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: auto;
     
 }
-/** Home / Hero Section End */
+/**---------------------------------- Home / Hero Section End --------------------------------**/
 
-/** Services Section Start */
+/**--------------------------------- Services Section Start ----------------------------------**/
 
 #Services {
     width: 100%;
@@ -270,7 +270,6 @@ h1 {
 .cards-main-container {
     width: 1200px;
     height: auto;
-    /* border: 2px solid white; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -332,9 +331,9 @@ h1 {
 }
 
 
-/** Services Section End */
+/**------------------------------------ Services Section End -------------------------------------**/
 
-/* * Project Section Start */
+/**------------------------------------ Project Section Start ------------------------------------**/
 
 #Projects {
     width: 100%;
@@ -354,14 +353,11 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    /* padding-left: 40px; */
 }
 
 .cards-container{
      width: 1200px;
     height: auto;
-    /* border: 2px solid white; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -386,7 +382,6 @@ h1 {
     color: white;
     margin-top: 40px;
     margin-left: 20px;
-    /* text-align: center; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -415,10 +410,6 @@ h1 {
     align-items: center;
 }
 
-/* .btns button {
-    
-
-} */
 
 .btn-1 {
     width: 100px;
@@ -444,10 +435,10 @@ h1 {
     text-align: start;
     color: rgb(117, 98, 224);
 }
-/* * Project Section End */
+/**--------------------------------- Project Section End --------------------------------**/
 
 
- /**  About Section Start  */
+ /**------------------------------- About Section Start ---------------------------------**/
 
  #About {
     width: 100%;
@@ -478,30 +469,27 @@ h1 {
     display: flex;
     justify-content: start;
     align-items: center;
-    /* border: 2px solid white; */
 }
 
 .line-container {
     width: 310px;
-    height: 320px;
+    height: 400px;
     border: 10px solid rgb(117, 98, 224);
     position: relative;
     box-shadow: 1px 1px 10px 10px rgba(117, 98, 224, 0.5), -1px -1px 30px 10px rgba(117, 98, 224, 0.5);
-    /* background-color: rgb(117, 98, 224); */
 }
 
 .about-photo{
     width: 300px;
-    height: 300px;
+    height: auto;
     position: absolute;
     margin-left: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(26, 26, 41);
+    object-fit: fill;
 }
 
 .about-photo img {
     width: 310px;
-    height: 320px;
+    height: auto;
 }
 
 .right-side-container {
@@ -511,7 +499,6 @@ h1 {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    /* padding-bottom: 60px; */
 }
 .right-side-container h1,h4 {
     margin-bottom: 10px;
@@ -541,15 +528,14 @@ h1 {
     box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 0.5);
 }
 
-/** About Section Completed */
+/**----------------------------- About Section Completed --------------------------**/
 
-/** Contact Section Start */
+/**---------------------------- Contact Section Start -----------------------------**/
 
 #Contact {
     width: 100%;
     height: auto;
     background-color: rgb(26, 26, 41);
-    margin-bottom: 100px;
     margin-top: 20px;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -570,7 +556,6 @@ h1 {
 .cntct-left-container {
     width: 600px;
     height: 550px;
-    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,42 +564,40 @@ h1 {
 
 .links-main-container{
     width: 400px;
-    height: 200px;
+    height: auto;
     display: flex;
-    justify-content: start;
-    align-items: flex-start; 
+    justify-content: center;
+    align-items: center; 
     flex-direction: column;
-    /* border: 2px solid white;     */
-    margin-top: 40px;
+    margin-top: -50px;
     gap: 20px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+    /* border: 2px solid white; */
+
 }
 
 .links{
-    width: 400px;
-    height: 50px;
-    /* border: 1px solid white; */
+    width: 300px;
+    height: 100px;
     margin-top: -30px;
     
-
 }
 .links i {
     font-size: 30px;
     color: rgb(117, 98, 224);
     border-radius: 50%;   
-    margin-left: 20px;   
+    margin-left: 20px;  
     
 }
 .links i:hover{
     box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 0.5);
 }
 
-/** Right container */
+/**--------------------------- Right container ----------------------------**/
 
 .cntct-right-container {
     width: 600px;
     height: 550px;
-    /* border: 1px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -663,3 +646,28 @@ form input{
 .cntct-right-container button:hover {
     box-shadow: 1px 1px 10px 7px rgba(117, 98, 224, 0.5), -1px -1px 20px 1px rgba(117, 98, 224, 0.5);
 }
+
+/**-------------------------- Contact Section Completed ----------------------------- **/
+
+/**-------------------------- Footer Start -----------------------------------------**/
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(24, 24, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links {
+    text-align: center;
+}
+
+.footer-links i{
+    width: 30px;
+    height: auto;
+    font-size: 30px;
+    color: rgb(117, 98, 224);
+}
+
+/**------------------------------ Footer Completed -------------------------------**/
